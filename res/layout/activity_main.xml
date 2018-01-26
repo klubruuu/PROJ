@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.klau.projekt4googlemaps.MainActivity">
+
+    <Button
+        android:text="Wyświetl mapę"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/button2"
+        android:onClick="OtworzMape"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Dodaj nowy punkt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button3"
+        android:onClick="NowyElementActivity"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Wywietl dodane punkty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button4"
+        android:onClick="WyswietlDodanePunkty"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
